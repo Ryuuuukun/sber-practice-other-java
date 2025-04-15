@@ -10,6 +10,8 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/info-reflection/generic-collection/pom.xml" />
+        <option value="$PROJECT_DIR$/json-serializer/json-serializer-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/shell-annotation/pom.xml" />
       </set>
     </option>
   </component>

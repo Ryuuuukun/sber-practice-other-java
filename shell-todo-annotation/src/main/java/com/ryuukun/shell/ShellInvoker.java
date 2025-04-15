@@ -1,6 +1,7 @@
 package com.ryuukun.shell;
 
 import com.ryuukun.shell.command.ShellCommand;
+import com.ryuukun.shell.exception.CommandExecutionException;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -13,19 +14,18 @@ public class ShellInvoker {
     }
 
     public void register(ShellCommand command) {
-        System.out.println(command.getName() + " " + command.getHelp());
         if (!commands.containsKey(command.getName())) {
             commands.put(command.getName(), command);
         } else {
-            throw new IllegalArgumentException("A command with that name already exists: " + command.getName());
+            throw new RuntimeException("A command named \"" + command.getName() + "\" already exists");
         }
     }
 
-    public void execute(String[] args) {
+    public void execute(String[] args) throws CommandExecutionException {
         if (commands.containsKey(args[0])) {
             commands.get(args[0]).execute(args);
         } else {
-            System.out.println("Команды с именем \"" + args[0] + "\" не существует");
+            throw new RuntimeException("A command named \"" + args[0] + "\" does not exist");
         }
     }
 

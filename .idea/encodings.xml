@@ -7,12 +7,22 @@
     <file url="file://$PROJECT_DIR$/info-reflection/generic-collection/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/info-reflection/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/info-reflection/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/json-serializer-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/json-serializer-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/json-serializer/json-serializer-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/json-serializer/json-serializer-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/json-serializer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/json-serializer/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/reflection-shell/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/reflection-shell/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shell-annotation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shell-annotation/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shell-reflection/info-reflection/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shell-reflection/info-reflection/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shell-reflection/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shell-reflection/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shell-todo-annotation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shell-todo-annotation/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

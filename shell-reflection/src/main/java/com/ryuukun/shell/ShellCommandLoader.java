@@ -40,7 +40,6 @@ public class ShellCommandLoader {
         return commands;
     }
 
-
     public static List<Class<?>> loadAllCommandClasses(ClassLoader loader, String directory) throws IOException {
         var stream = loader.getResourceAsStream(directory.replace(".", "/"));
 
